@@ -1,0 +1,13 @@
+{
+  "name": "ips-one",
+  "private": true,
+  "packageManager": "pnpm@10.34.9",
+  "scripts": {
+    "dev": "pnpm --filter web dev",
+    "build": "pnpm --filter web build",
+    "test": "pnpm -r test",
+    "typecheck": "pnpm -r typecheck",
+    "db:generate": "pnpm --filter web db:generate",
+    "db:seed": "pnpm --filter web db:seed"
+  }
+}
